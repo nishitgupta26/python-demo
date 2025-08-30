@@ -1,0 +1,29 @@
+# Simple RAG System - Supports Both FREE and PAID Models
+# This file contains all packages needed for the RAG system
+
+# Core LangChain components
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-chroma>=0.2.0
+
+# PDF processing
+pypdf2==3.0.1
+
+# Vector database
+chromadb>=0.5.0
+
+# Environment management
+python-dotenv==1.0.1
+
+# For PAID models (OpenAI) - Optional
+langchain-openai>=0.2.0
+openai>=1.0.0
+
+# For FREE models (HuggingFace + Ollama) - Optional
+sentence-transformers>=2.2.2
+transformers>=4.21.0
+torch>=1.12.0
+huggingface-hub>=0.16.4
+
+# Additional utilities
+numpy>=1.21.0
