@@ -27,3 +27,17 @@ huggingface-hub>=0.16.4
 
 # Additional utilities
 numpy>=1.21.0
+
+# Agentic RAG System Dependencies
+# MCP (Model Context Protocol) for Wikipedia integration
+mcp>=1.0.0
+wikipedia-api>=0.6.0
+requests>=2.31.0
+
+# Agent framework
+pydantic>=2.0.0
+typing-extensions>=4.8.0
+
+# Async support for agents
+asyncio>=3.4.3
+aiohttp>=3.9.0
